@@ -3,5 +3,5 @@ def introduction(name)
 end
 
 def introduction_with_language(name, language)
-  puts `This is a #{phrase}, #{language}`
+  puts `This is a #{name}, #{language}`
 end
